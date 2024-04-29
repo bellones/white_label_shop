@@ -17,7 +17,7 @@ const routes ={
     Splash: {
         component: SplashScreen,
         props: {},
-        options: { headerShown: false, ...options },
+        options: { headerShown: false, ...options},
         
     },
     Login: {
