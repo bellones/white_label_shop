@@ -5,7 +5,7 @@ const useSpLashViewModel = () => {
     const navigation = useNavigation();
     const init = async ()   => {
         setTimeout(() => {
-             navigation.navigate("Login" as never);
+             navigation.navigate("Tabs" as never);
         },2000);
     }
 
