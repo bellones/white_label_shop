@@ -15,6 +15,8 @@ const LoginStyles =  StyleSheet.create({
     error: {
         color: 'red',
     },
+
+  
 });
 
 export default LoginStyles;

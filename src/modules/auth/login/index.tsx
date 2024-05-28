@@ -8,6 +8,8 @@ const LoginScreen = () => {
     <View style={LoginStyles.container}>
       <ScrollView>
         <AppStatusBar />
+
+        
       </ScrollView>
     </View>
   );
