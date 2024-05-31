@@ -2,12 +2,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const ForgotPassWordScreen = () => {
+export const OrderScreen = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text>OrderScreen</Text>
     </View>
   );
 };
 
-export default ForgotPassWordScreen;
+

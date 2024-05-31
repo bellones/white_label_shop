@@ -2,12 +2,11 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const CartScreen = () => {
+export const ForgotPasswordScreen = () => {
   return (
     <View>
-      <Text>CartScreen</Text>
+      <Text>index</Text>
     </View>
   );
 };
 
-export default CartScreen;

@@ -2,12 +2,11 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const RegisterScreen = () => {
+export const CategoriesScreen = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text>CategoriesScreen</Text>
     </View>
   );
 };
 
-export default RegisterScreen;

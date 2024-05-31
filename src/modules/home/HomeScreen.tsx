@@ -2,7 +2,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const HomeScreen = () => {
+export const HomeScreen = () => {
   return (
     <View>
       <Text>HomeScreen</Text>
@@ -10,4 +10,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+

@@ -4,12 +4,12 @@ import React from "react";
 import Feather from "react-native-vector-icons/Feather";
 import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
 import AppStatusBar from "../../components/appStatusBar";
-import HomeScreen from "../home";
-import OrderScreen from "../order";
-import ProfileScreen from "../profile";
-import SearchScreen from "../search";
+import { HomeScreen } from "../home";
+import { OrderScreen } from "../order";
+import { ProfileScreen } from "../profile";
+import { SearchScreen } from "../search";
 
-const TabsScreen = () => {
+export const TabsScreen = () => {
   const Tab = createBottomTabNavigator();
   const tabItemOptions = {
     headerShown: false,
@@ -69,4 +69,4 @@ const TabsScreen = () => {
   );
 };
 
-export default TabsScreen;
+

@@ -2,7 +2,7 @@ import { ComponentType } from "react";
 
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import routes from "./routes";
+import routes from "../constants/routes";
 
 const screenOptions = {
     cardStyle: { backgroundColor: 'white' },
