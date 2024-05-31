@@ -1,7 +1,8 @@
 /* eslint-disable prettier/prettier */
 import LottieView from "lottie-react-native";
 import React, { useEffect } from "react";
-import AppStatusBar from "../../components/appStatusBar";
+
+import { AppStatusBar } from "../../components";
 import styles from "./styles";
 import useSpLashViewModel from "./viewModel/useSplashViewModel";
 

@@ -3,7 +3,7 @@ import React from "react";
 
 import Feather from "react-native-vector-icons/Feather";
 import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
-import AppStatusBar from "../../components/appStatusBar";
+import AppStatusBar from "../../components/AppStatusBar";
 import { HomeScreen } from "../home";
 import { OrderScreen } from "../order";
 import { ProfileScreen } from "../profile";
@@ -25,6 +25,7 @@ export const TabsScreen = () => {
         sceneContainerStyle={{ backgroundColor: "white" }}
         screenOptions={({ route }) => ({
           tabBarIcon: ({ color, size }) => {
+            console.log(color, size);
             let iconName = "";
             if (route.name === "Home") {
               iconName = "home";

@@ -1,7 +1,7 @@
 import { StatusBar } from "react-native";
 import IAppStatusBar from "../interfaces/IAppStatusBar";
 
-const AppStatusBar = ( { backgroundColor} : IAppStatusBar) => {
+export const AppStatusBar = ( { backgroundColor} : IAppStatusBar) => {
 
     return (
         <StatusBar
@@ -10,5 +10,3 @@ const AppStatusBar = ( { backgroundColor} : IAppStatusBar) => {
         />
     )
 }
-
-export default AppStatusBar;
