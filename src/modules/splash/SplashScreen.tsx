@@ -5,7 +5,7 @@ import AppStatusBar from "../../components/appStatusBar";
 import styles from "./styles";
 import useSpLashViewModel from "./viewModel/useSplashViewModel";
 
-const SplashScreen = () => {
+export const SplashScreen = () => {
 
   const  { init } = useSpLashViewModel();
   useEffect(() => {
@@ -24,4 +24,3 @@ const SplashScreen = () => {
   );
 };
 
-export default SplashScreen;

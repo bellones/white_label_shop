@@ -1,0 +1,1 @@
+export { TabsScreen } from './TabsScreen';

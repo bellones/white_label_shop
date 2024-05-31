@@ -2,7 +2,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const SearchScreen = () => {
+export const ProfileScreen = () => {
   return (
     <View>
       <Text>index</Text>
@@ -10,4 +10,3 @@ const SearchScreen = () => {
   );
 };
 
-export default SearchScreen;
